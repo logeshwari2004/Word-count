@@ -18,8 +18,18 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
+```
+with open("word_name.txt","r")as fp:
+    count=0
+    for data in fp:
+        x=data.split()
+        for i in x:
+            count+=1
+        print("Number of words : ",count)
+```
 
 ### OUTPUT:
+![output1](./word1.png)
 
 
 
